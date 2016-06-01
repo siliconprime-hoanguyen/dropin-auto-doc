@@ -12,6 +12,15 @@ POST /streams/request/:organizationCode
 ```
 
 
+#### Body
+
+```javascript
+{
+"vin":"xxx",
+}
+```
+
+
 
 ## Account
 
