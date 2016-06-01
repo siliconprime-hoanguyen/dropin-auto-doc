@@ -5,5 +5,26 @@
 ### Request stream
 
 ```javascript
-POST /stream/requests/:organizationId
+POST /streams/request/:organizationCode
+```
+
+
+
+## Account
+
+### Register 
+
+```javascript
+POST /auth/register
+```
+
+#### Body
+```javascript
+{
+"email":"xxx@xxx.com",
+"password":"xxxxxx",
+"firstName":"xxxx",
+"lastName":"xxx",
+"username":"xxxxx"
+}
 ```
