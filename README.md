@@ -20,6 +20,12 @@ POST /streams/request/:organizationCode
 }
 ```
 
+### Accept stream
+
+```javascript
+POST /streams/accept/:organizationCode
+```
+
 
 
 ## Account
