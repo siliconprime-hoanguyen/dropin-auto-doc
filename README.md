@@ -2,6 +2,13 @@
 
 ## DevAPI: https://apiautodev.dropininc.com
 
+### For requests which need authentication, please add this to the headers of the requests
+
+```javascript
+{
+  Authorization: 'JWT xxxxxx'
+}
+```
 
 ## Stream
 
@@ -20,10 +27,10 @@ POST /streams/request/:organizationCode
 }
 ```
 
-### Accept stream
+### Accept stream (Authentication required)
 
 ```javascript
-POST /streams/accept/:streamId
+POST /streams/accept/:streamId 
 ```
 
 
