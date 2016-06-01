@@ -1,5 +1,8 @@
 # dropin-auto-doc
 
+# DevAPI: http://dropin-dev-auto-api.us-west-2.elasticbeanstalk.com
+
+
 ## Stream
 
 ### Request stream
@@ -26,5 +29,22 @@ POST /auth/register
 "firstName":"xxxx",
 "lastName":"xxx",
 "username":"xxxxx"
+}
+```
+### Login 
+
+```javascript
+POST /auth
+```
+
+
+#### Body
+
+#### Only email OR username is used.
+```javascript
+{
+"email":"xxx@xxx.com",
+"username":"xxxxx"
+"password":"xxxxxx",
 }
 ```
