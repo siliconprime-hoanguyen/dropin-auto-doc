@@ -34,6 +34,15 @@ POST /streams/accept/:streamId
 ```
 
 
+### Stop stream
+
+```javascript
+POST /streams/stop/:streamId 
+```
+
+
+
+
 
 ## Account
 
