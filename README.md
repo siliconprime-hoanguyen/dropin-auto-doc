@@ -49,8 +49,22 @@ POST /streams/ping/:streamId
 ```
 
 
+## Socket
 
+### Authentication for Pusher service URL (called by Pusher SDK)
 
+```javascript
+POST /socket/auth
+```
+
+#### Body
+
+```javascript
+{
+"socket_id":"xxx",
+"channel_name":"xxxx"
+}
+```
 
 
 ## Account
