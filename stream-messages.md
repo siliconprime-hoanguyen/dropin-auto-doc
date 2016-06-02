@@ -31,6 +31,49 @@
       "title": "expired",
       "message": "expired"
     }
+  },
+  "errorMessages": {
+    "organizationNotAvailable": {
+      "code": "ERROR_ORGANIZATION_NOT_AVAILABLE",
+      "status": 400,
+      "message": "This organization is not available"
+    },
+    "dealerNotFound": {
+      "code": "ERROR_DEALER_NOT_FOUND",
+      "status": 400,
+      "message": "No available dealer found for this organization"
+    },
+    "invalidActionStream": {
+      "code": "ERROR_ACTION_STREAM_INVALID",
+      "status": 400,
+      "message": "This action cannot be performed on this stream or this stream does not exist"
+    },
+    "invalidOrganizationToken": {
+      "code": "ERROR_TOKEN_INVALID",
+      "status": 400,
+      "message": "This token does not exist"
+    },
+    "failureOnOpenTokSession": {
+      "code": "ERROR_OPENTOK_SESSION",
+      "status": 400,
+      "message": "OpentTok failed to create session"
+    },
+    "alreadyAcceptedStream": {
+      "code": "ERROR_STREAM_IS_ON_THE_WAY",
+      "status": 400,
+      "message": "This stream is not available anymore"
+    },
+    "busyDealer": {
+      "code": "ERROR_BUSY_DEALER",
+      "status": 400,
+      "message": "This dealer must stop his/her current stream before accepting a new one"
+    },
+    "loginFailed": {
+      "code": "ERROR_INVALID_CREDENTIALS",
+      "status": 400,
+      "message": "Invalid credentials provided"
+    }
   }
 }
+
 ```
