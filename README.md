@@ -48,6 +48,20 @@ POST /streams/stop/:streamId
 POST /streams/ping/:streamId 
 ```
 
+### Add/edit note for the stream (stream MUST be stopped or completed)
+
+```javascript
+POST /streams/note/:streamId 
+```
+
+#### Body
+
+```javascript
+{
+"note":"xxx",
+}
+```
+
 
 ## Socket
 
