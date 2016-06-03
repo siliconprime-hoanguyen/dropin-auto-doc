@@ -115,6 +115,7 @@ POST /auth/changepassword
 #### Body
 ```javascript
 {
+"username":"xxxxx",
 "password":"xxxx",
 "newpassword":"xxxxxx"
 }
