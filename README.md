@@ -106,6 +106,21 @@ POST /auth/register
 "username":"xxxxx"
 }
 ```
+### Register 
+
+```javascript
+POST /auth/changepassword
+```
+
+#### Body
+```javascript
+{
+"password":"xxxx",
+"newpassword":"xxxxxx"
+}
+```
+
+
 ### Login 
 
 ```javascript
