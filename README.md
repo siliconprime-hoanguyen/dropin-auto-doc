@@ -121,6 +121,29 @@ POST /auth/changepassword
 }
 ```
 
+## Chat
+
+### Save chat message
+
+```javascript
+POST /chat/:streamId
+```
+
+#### Body
+```javascript
+{
+"from":"accountId",
+"message":"xxxx"
+}
+```
+
+### Get chat history
+
+```javascript
+GET /chat/:streamId?start=0&limit=10
+```
+
+
 
 ### Login 
 
