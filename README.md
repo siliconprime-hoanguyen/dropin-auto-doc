@@ -41,6 +41,13 @@ POST /streams/stop/:streamId
 ```
 
 
+### Get stream
+
+```javascript
+POST /streams/:streamId 
+```
+
+
 ### Ping stream (Authentication required)
 #### Failure on pinging server during 'streaming' session from dealer's behalf will result in the expiration of the session.
 
