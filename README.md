@@ -12,6 +12,15 @@
 
 ## Stream
 
+
+### Get stream list (Authentication required)
+
+```javascript
+GET /streams
+```
+
+
+
 ### Request stream
 
 ```javascript
