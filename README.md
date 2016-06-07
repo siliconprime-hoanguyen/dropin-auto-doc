@@ -139,13 +139,13 @@ POST /auth/logout
 ### Switch online
 
 ```javascript
-POST /accounts/online
+POST /accounts/status/online
 ```
 
 ### Switch offline
 
 ```javascript
-POST /accounts/offline
+POST /accounts/status/offline
 ```
 
 
