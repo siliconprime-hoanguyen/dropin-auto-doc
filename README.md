@@ -138,13 +138,13 @@ POST /auth/changepassword
 }
 ```
 
-### Logout
+### Logout (Authentication required)
 
 ```javascript
 POST /auth/logout
 ```
 
-### Switch online
+### Switch online (Authentication required)
 
 ```javascript
 POST /accounts/status/online
@@ -153,7 +153,7 @@ POST /accounts/status/online
 ### Switch offline
 
 ```javascript
-POST /accounts/status/offline
+POST /accounts/status/offline (Authentication required)
 ```
 
 
