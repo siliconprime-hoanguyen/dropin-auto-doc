@@ -150,10 +150,10 @@ POST /auth/logout
 POST /accounts/status/online
 ```
 
-### Switch offline
+### Switch offline (Authentication required)
 
 ```javascript
-POST /accounts/status/offline (Authentication required)
+POST /accounts/status/offline 
 ```
 
 
