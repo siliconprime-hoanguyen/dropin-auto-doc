@@ -13,6 +13,14 @@
 ## Stream
 
 
+### Get vin model
+
+```javascript
+GET /vin/:vinId
+```
+
+
+
 ### Get stream list (Authentication required)
 
 ```javascript
@@ -53,7 +61,7 @@ POST /streams/stop/:streamId
 ### Get stream
 
 ```javascript
-POST /streams/:streamId 
+GET /streams/:streamId 
 ```
 
 
