@@ -130,6 +130,26 @@ POST /auth/changepassword
 }
 ```
 
+### Logout
+
+```javascript
+POST /auth/logout
+```
+
+### Switch online
+
+```javascript
+POST /accounts/online
+```
+
+### Switch offline
+
+```javascript
+POST /accounts/offline
+```
+
+
+
 ## Chat
 
 ### Save chat message
