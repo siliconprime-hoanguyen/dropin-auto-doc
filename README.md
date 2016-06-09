@@ -87,6 +87,31 @@ POST /streams/note/:streamId
 ```
 
 
+
+### Feedback streaming
+
+```javascript
+POST /leads
+```
+
+#### The caller MUST provide streamId or (organizationToken and vinId), all are provided, streamId will be used.
+
+#### Body
+
+```javascript
+{
+    "streamId":"dfdsfsdf",
+    "organizationToken":"organizationninh0",
+    "vinId": "123",
+    "email":"hoa@codehub.io",
+    "lastName":"hoa",
+    "firstName": "hoa",
+    "phone":"dfdsfds",
+    "comment": "123213"
+}
+```
+
+
 ## Socket
 
 ### Authentication for Pusher service URL (called by Pusher SDK)
