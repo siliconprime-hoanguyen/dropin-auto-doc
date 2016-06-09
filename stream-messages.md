@@ -14,7 +14,7 @@
     "streamCancelled": {
       "code": 2,
       "title": "cancelled",
-      "message": "accepted"
+      "message": "canclled"
     },
     "streamStopped": {
       "code": 3,
@@ -72,8 +72,29 @@
       "code": "ERROR_INVALID_CREDENTIALS",
       "status": 400,
       "message": "Invalid credentials provided"
+    },
+    "accountNotExist": {
+      "code": "ERROR_INVALID_ACCOUNT",
+      "status": 400,
+      "message": "This account does not exists"
+    },
+    "invalidSessionId": {
+      "code": "ERROR_INVALID_SESSIONID",
+      "status": 400,
+      "message": "This sessionId is invalid or being used"
+    },
+    "invalidStreamId": {
+      "code": "ERROR_INVALID_STREAMID",
+      "status": 400,
+      "message": "This streamId does not exist"
+    },
+    "createLeadFailed": {
+      "code": "ERROR_CANNOT_CREATE_LEAD",
+      "status": 400,
+      "message": "The information is not enough for creating lead"
     }
   }
 }
+
 
 ```
