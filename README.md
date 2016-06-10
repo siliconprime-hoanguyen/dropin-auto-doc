@@ -69,7 +69,7 @@ GET /streams/:streamId
 #### Failure on pinging server during 'streaming' session from dealer's behalf will result in the expiration of the session.
 
 ```javascript
-POST /streams/ping/:streamId 
+POST /ping
 ```
 
 ### Add/edit note for the stream (stream MUST be stopped or completed)
