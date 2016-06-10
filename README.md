@@ -209,6 +209,13 @@ GET /chat/:streamId?start=0&limit=10
 
 ### Login 
 
+#### For this API, mobile caller MUST provide header
+
+```javascript
+ Plaform: ['ios', 'android'] //one of the 2 values
+```
+
+
 ```javascript
 POST /auth
 ```
