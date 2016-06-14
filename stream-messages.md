@@ -30,6 +30,14 @@
       "code": 5,
       "title": "expired",
       "message": "expired"
+    },
+    "streamOccupied": {
+      "code": 6,
+      "title": "occupied",
+      "message": "occupied",
+      "_id": "575f7fd672f9d66a80b47e3f",
+      "messageId": "b6c0ba80-31e3-11e6-a7d9-0539ef11f73d",
+      "acceptedDealerFullName": "hung36 of org hung0"
     }
   },
   "errorMessages": {
