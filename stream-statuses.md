@@ -4,6 +4,6 @@
  'expired', // dealer does not ping when streaming for more than 10 minutes
  'streaming', // the streaming is on going.
  'completed', //the streaming stopped.
- 'all-offline' // at least 1 dealer logs in but none is active at the moment request comes. 
+ 'missed-offline' // at least 1 dealer logs in but none is active at the moment request comes. 
  ]
 ```
