@@ -94,14 +94,6 @@ POST /streams/note/:streamId
 POST /streams/sendloanlink/:streamId
 ```
 
-#### Body
-
-```javascript
-{
-"note":"xxx",
-}
-```
-
 
 
 ### Feedback streaming
