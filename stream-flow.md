@@ -5,7 +5,7 @@
 ### 1. Customer starts a streaming request R to an organization.
 
 #### 1.1 If no dealer has logged in, OR all dealers are busy, OR all dealers are offline, server informs web, and web informs customer. Web waits for predecessor requests (if any)
--  If no response from predecessor requests OR this is the 1st request, web goes to step 3.
+-  If no response from predecessor requests within 120 seconds from the last request OR this is the 1st request, web goes to step 3.
 -  If there is response from predecessor requests, web goes to step 2.
 
 #### 1.2 If at least 1 dealer, given B, has logged in, and is ONLINE, server sends the request to B.
