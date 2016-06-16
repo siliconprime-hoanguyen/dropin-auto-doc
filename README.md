@@ -88,6 +88,20 @@ POST /streams/note/:streamId
 }
 ```
 
+### Sending loan link to customer after stream is finished.
+
+```javascript
+POST /streams/sendloanlink/:streamId
+```
+
+#### Body
+
+```javascript
+{
+"note":"xxx",
+}
+```
+
 
 
 ### Feedback streaming
