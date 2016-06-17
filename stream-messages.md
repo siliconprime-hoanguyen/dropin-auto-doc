@@ -1,10 +1,9 @@
-```javascript
 {
   "streamMessages": {
     "streamRequested": {
       "code": 0,
-      "title": "requested",
-      "message": "requested"
+      "title": "You have a new video tour request",
+      "message": "You have a new video tour request"
     },
     "streamAccepted": {
       "code": 1,
@@ -13,13 +12,13 @@
     },
     "streamCancelled": {
       "code": 2,
-      "title": "cancelled",
-      "message": "canclled"
+      "title": "Video tour request cancelled",
+      "message": "Video tour request cancelled"
     },
     "streamStopped": {
       "code": 3,
-      "title": "stopped",
-      "message": "stopped"
+      "title": "Video tour completed",
+      "message": "Video tour completed"
     },
     "streaming": {
       "code": 4,
@@ -28,16 +27,18 @@
     },
     "streamExpired": {
       "code": 5,
-      "title": "expired",
-      "message": "expired"
+      "title": "Dealer is offline while streaming",
+      "message": "This dealer has been offline for more than 10 minutes while in streaming"
     },
     "streamOccupied": {
       "code": 6,
-      "title": "occupied",
-      "message": "occupied",
-      "_id": "575f7fd672f9d66a80b47e3f",
-      "messageId": "b6c0ba80-31e3-11e6-a7d9-0539ef11f73d",
-      "acceptedDealerFullName": "hung36 of org hung0"
+      "title": "The request was occupied by ",
+      "message": "The request was occupied by "
+    },
+    "streamMissed": {
+      "code": 7,
+      "title": "You have missed a request ",
+      "message": "You have missed a request, please go to your call list to review"
     }
   },
   "errorMessages": {
@@ -69,16 +70,26 @@
     "alreadyAcceptedStream": {
       "code": "ERROR_STREAM_IS_ON_THE_WAY",
       "status": 400,
-      "message": "This stream is not available anymore"
+      "message": "This stream was occupied by "
     },
     "busyDealer": {
       "code": "ERROR_BUSY_DEALER",
       "status": 400,
       "message": "This dealer must stop his/her current stream before accepting a new one"
     },
+    "offlineDealer": {
+      "code": "ERROR_OFFLINE_DEALER",
+      "status": 400,
+      "message": "This dealer failed to go online for a long time, therefore cannot accept this tream"
+    },
+    "noOnlineDealer": {
+      "code": "ERROR_NO_ONLINE_DEALER",
+      "status": 400,
+      "message": "At least a dealer detected but he/she is not available for streaming"
+    },
     "loginFailed": {
       "code": "ERROR_INVALID_CREDENTIALS",
-      "status": 400,
+      "status": 403,
       "message": "Invalid credentials provided"
     },
     "accountNotExist": {
@@ -96,13 +107,48 @@
       "status": 400,
       "message": "This streamId does not exist"
     },
+    "criticalStreamingFlowError": {
+      "code": "ERROR_CRITICAL_FLOW_ERROR",
+      "status": 400,
+      "message": "This error is critical"
+    },
     "createLeadFailed": {
       "code": "ERROR_CANNOT_CREATE_LEAD",
       "status": 400,
       "message": "The information is not enough for creating lead"
+    },
+    "invalidPlatform": {
+      "code": "ERROR_INVALID_PLATFORM",
+      "status": 403,
+      "message": "The user is not allowed to login on this platform"
+    },
+    "emailUserNameDuplicated": {
+      "code": "ERROR_DUPLICATION",
+      "status": 400,
+      "message": "This email or username is/are already in use"
+    },
+    "invalidPasswordLength": {
+      "code": "ERROR_PASSWORD_LENGTH",
+      "status": 400,
+      "message": "Password length must be more than 5"
+    },
+    "invalidInfoType": {
+      "code": "ERROR_INFO_TYPE",
+      "status": 400,
+      "message": "The requested type is invalid"
+    },
+    "noEmailAndPhone": {
+      "code": "ERROR_NO_EMAIL_PHONE",
+      "status": 400,
+      "message": "The lead did not provide phone and email"
+    },
+    "noCreditApplicationUrl": {
+      "code": "ERROR_NO_CREDIT_APP_URL",
+      "status": 400,
+      "message": "The organization does not have credit application url, please login as admin end provide the credit application url for it"
     }
+  },
+  "smsMessages": {
+    "loanLink": "Hi %name%! We appreciate your interest in our vehicle! Here’s the link to our loan approval/pre-approval you have requested, I look forward to your visit! %link%"
   }
 }
-
-
-```
