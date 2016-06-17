@@ -1,3 +1,4 @@
+```javascript
 {
   "streamMessages": {
     "streamRequested": {
@@ -152,3 +153,4 @@
     "loanLink": "Hi %name%! We appreciate your interest in our vehicle! Here’s the link to our loan approval/pre-approval you have requested, I look forward to your visit! %link%"
   }
 }
+```
