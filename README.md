@@ -31,6 +31,7 @@ GET /dashboard/countlead?query=xxx
   from: '2016-06-16',
   to: '2016-06-16',
   vin: '12321'
+}
 ```
 
 ### Counting call
@@ -53,6 +54,7 @@ GET /dashboard/countcall?query=xxx
   from: '2016-06-16',
   to: '2016-06-16',
   vin: '12321'
+}
 ```
 
 
