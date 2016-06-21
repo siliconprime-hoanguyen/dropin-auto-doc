@@ -2,7 +2,59 @@
 
 ## DevAPI: https://apiautodev.dropininc.com
 
+## DevWeb: https://autodev.dropininc.com
+
 ## ProdAPI: https://apiprodauto.dropininc.com/
+
+## ProdWeb: https://auto.dropininc.com/
+
+
+## Dashboard
+
+### Counting lead
+
+```javascript
+GET /dashboard/countlead?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  organizationName: 'xxx',
+  status: 'missed,completed,expired',
+  carType: 'sedan',
+  carModel: 'camry'
+  carMake: 'toyota',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321'
+```
+
+### Counting call
+
+```javascript
+GET /dashboard/countcall?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  organizationName: 'xxx',
+  status: 'missed,completed,expired',
+  carType: 'sedan',
+  carModel: 'camry'
+  carMake: 'toyota',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321'
+```
+
 
 ### For requests which need authentication, please add this to the headers of the requests
 
