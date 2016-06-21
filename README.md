@@ -11,6 +11,54 @@
 
 ## Dashboard
 
+### Getting call
+
+```javascript
+GET /dashboard/getcalls?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  organizationName: 'xxx',
+  status: 'missed,completed,expired',
+  carType: 'sedan',
+  carModel: 'camry'
+  carMake: 'toyota',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321'
+}
+```
+
+
+
+### Getting lead
+
+```javascript
+GET /dashboard/getleads?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  organizationName: 'xxx',
+  status: 'missed,completed,expired',
+  carType: 'sedan',
+  carModel: 'camry'
+  carMake: 'toyota',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321'
+}
+```
+
 ### Counting lead
 
 ```javascript
