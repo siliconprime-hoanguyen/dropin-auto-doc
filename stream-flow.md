@@ -36,5 +36,6 @@
 ## Some cases might prevent dealers from receiving request
 - Dealer is NOT active (set by admin in dashboard)
 - Dealer is NOT online (set by dealer himself in the app)
+- Dealer is in middle of a request of an active streaming.
 - Given both dealer A and dealer B are online in the same organization C and free, the last ping of dealer A to server is at 10PM, the last ping of dealer B to server is at 11PM, any request to organization C will come to dealer B first.
 Now, dealer B logouts, the request still comes to dealer B FIRST, UNTIL the next ping of user A.
