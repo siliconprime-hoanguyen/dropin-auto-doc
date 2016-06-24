@@ -4,9 +4,9 @@
 
 ### 1. Customer starts a streaming request R to an organization.
 
-#### 1.1 If no dealer has logged in, OR all dealers are busy, OR all dealers are OFFLINE, server informs web, and web informs customer.
+#### 1.1 If no dealer ~~has logged in,~~ OR all dealers are busy, OR all dealers are OFFLINE, server informs web, and web informs customer.
 
-#### 1.2 If at least 1 dealer, given B, has logged in, and is ONLINE, and is NOT BUSY, server sends the request to B.
+#### 1.2 If at least 1 dealer, given B, ~~has logged in, and~~ is ONLINE, and is NOT IN THE MIDDLE OF ANY REQUEST, server sends the request to B.
 
 - If web does not receive the response within 0 - 30 seconds, web go to step 1.
 
