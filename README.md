@@ -117,6 +117,23 @@ GET /dashboard/countcall?query=xxx
 ## Stream
 
 
+### Log stream for receving web socket messages, push notification messages)
+
+```javascript
+POST /streams/log/:streamId
+```
+
+
+#### Body
+
+```javascript
+{
+"type":"pusher",
+"code":3
+}
+```
+
+
 ### Get vin model
 
 ```javascript
