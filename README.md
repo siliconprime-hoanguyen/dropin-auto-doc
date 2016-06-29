@@ -30,7 +30,9 @@ GET /dashboard/getcalls?query=xxx
   carMake: 'toyota',
   from: '2016-06-16',
   to: '2016-06-16',
-  vin: '12321'
+  vin: '12321',
+  skip: 10,
+  limit: 20
 }
 ```
 
@@ -55,7 +57,9 @@ GET /dashboard/getleads?query=xxx
   carMake: 'toyota',
   from: '2016-06-16',
   to: '2016-06-16',
-  vin: '12321'
+  vin: '12321',
+  skip: 10,
+  limit: 20
 }
 ```
 
