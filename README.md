@@ -62,6 +62,21 @@ GET /dashboard/getleads?query=xxx
   limit: 20
 }
 ```
+### Counting lead and call
+
+```javascript
+GET /dashboard/countcalllead?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  from: '2016-06-16',
+  to: '2016-06-16',
+ }
+```
+
 
 ### Counting lead
 
