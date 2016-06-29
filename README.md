@@ -65,7 +65,7 @@ GET /dashboard/getleads?query=xxx
 ### Counting lead and call
 
 ```javascript
-GET /dashboard/countleadcall?query=xxx
+GET /dashboard/countcalllead?query=xxx
 ```
 
 #### Query
