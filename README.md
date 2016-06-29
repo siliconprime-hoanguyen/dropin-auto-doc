@@ -11,6 +11,32 @@
 
 ## Dashboard
 
+### Getting call csv file
+
+```javascript
+GET /dashboard/exportcsvcalls?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  organizationName: 'xxx',
+  status: 'missed,completed,expired',
+  carType: 'sedan',
+  carModel: 'camry'
+  carMake: 'toyota',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321',
+  skip: 10,
+  limit: 20
+}
+```
+
+
 ### Getting call
 
 ```javascript
@@ -36,6 +62,30 @@ GET /dashboard/getcalls?query=xxx
 }
 ```
 
+### Export lead csv file
+
+```javascript
+GET /dashboard/exportcsvleads?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  organizationName: 'xxx',
+  status: 'missed,completed,expired',
+  carType: 'sedan',
+  carModel: 'camry'
+  carMake: 'toyota',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321',
+  skip: 10,
+  limit: 20
+}
+```
 
 
 ### Getting lead
