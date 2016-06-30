@@ -9,6 +9,15 @@
 ## ProdWeb: https://auto.dropininc.com/
 
 
+### API key is required for every call to server, adding the below key/value pair to header
+
+```javascript
+{apikey: xxxxx}
+```
+
+
+
+
 ## Dashboard
 
 
