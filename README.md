@@ -11,6 +11,25 @@
 
 ## Dashboard
 
+
+### Getting organizations
+
+```javascript
+GET /dashboard/getorganizations?query=xxx
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //organization name
+  skip: 10,
+  limit: 20
+}
+```
+
+
+
 ### Getting call csv file
 
 ```javascript
