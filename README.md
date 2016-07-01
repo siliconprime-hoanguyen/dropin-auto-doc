@@ -144,7 +144,7 @@ GET /dashboard/getleads?query=xxx
   timezoneoffset: -420 //for GMT+7, default:0
 }
 ```
-### Counting lead and call
+### Counting lead and call by range
 
 ```javascript
 GET /dashboard/countcalllead?query=xxx
@@ -159,6 +159,11 @@ GET /dashboard/countcalllead?query=xxx
  }
 ```
 
+### Counting all lead and call
+
+```javascript
+GET /dashboard/countcalllead
+```
 
 ### Counting lead
 
