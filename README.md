@@ -60,7 +60,8 @@ GET /dashboard/exportcsvcalls?query=xxx
   to: '2016-06-16',
   vin: '12321',
   skip: 10,
-  limit: 20
+  limit: 20,
+  timezoneoffset: -420 //for GMT+7, default:0
 }
 ```
 
@@ -86,7 +87,8 @@ GET /dashboard/getcalls?query=xxx
   to: '2016-06-16',
   vin: '12321',
   skip: 10,
-  limit: 20
+  limit: 20,
+  timezoneoffset: -420 //for GMT+7, default:0
 }
 ```
 
@@ -111,7 +113,8 @@ GET /dashboard/exportcsvleads?query=xxx
   to: '2016-06-16',
   vin: '12321',
   skip: 10,
-  limit: 20
+  limit: 20,
+  timezoneoffset: -420 //for GMT+7, default:0
 }
 ```
 
@@ -137,7 +140,8 @@ GET /dashboard/getleads?query=xxx
   to: '2016-06-16',
   vin: '12321',
   skip: 10,
-  limit: 20
+  limit: 20,
+  timezoneoffset: -420 //for GMT+7, default:0
 }
 ```
 ### Counting lead and call
