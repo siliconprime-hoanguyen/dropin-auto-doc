@@ -47,7 +47,7 @@ GET /dashboard/exportcsvcalls?query=xxx
 
 #### Query
 
-```javascript
+```javascriptre
 {
   name:'xxx' //firstName or lastName
   phone: 'xxx',
@@ -317,6 +317,7 @@ POST /streams/request/:organizationCode
 ```javascript
 {
 "vin":"xxx",
+"sessionId":"xxxx" // a unique string provided by app.
 }
 ```
 
