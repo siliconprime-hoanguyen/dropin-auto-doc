@@ -92,6 +92,57 @@ GET /dashboard/getcalls?query=xxx
 }
 ```
 
+
+### Getting dealers for organization
+
+```javascript
+GET /organization/getdealers?organizationId=xxxx&query=....
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  email: 'xxx',
+  organizationName: 'xxx',
+  organizationId: 'xxx',
+  status: 'active,inactive',
+  accountStatus: 'online,offline',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321',
+  skip: 10,
+  limit: 20,
+}
+```
+
+### Counting dealers for organization
+
+```javascript
+GET /organization/getdealers?organizationId=xxxx&query=....
+```
+
+#### Query
+
+```javascript
+{
+  name:'xxx' //firstName or lastName
+  phone: 'xxx',
+  email: 'xxx',
+  organizationName: 'xxx',
+  organizationId: 'xxx',
+  status: 'active,inactive',
+  accountStatus: 'online,offline',
+  from: '2016-06-16',
+  to: '2016-06-16',
+  vin: '12321',
+}
+```
+
+
+
 ### Export lead csv file
 
 ```javascript
