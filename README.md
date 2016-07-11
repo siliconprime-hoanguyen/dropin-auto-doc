@@ -112,7 +112,6 @@ GET /organization/getdealers?organizationId=xxxx&query=....
   accountStatus: 'online,offline',
   from: '2016-06-16',
   to: '2016-06-16',
-  vin: '12321',
   skip: 10,
   limit: 20,
 }
@@ -136,8 +135,7 @@ GET /organization/countdealer?organizationId=xxxx&query=....
   status: 'active,inactive',
   accountStatus: 'online,offline',
   from: '2016-06-16',
-  to: '2016-06-16',
-  vin: '12321',
+  to: '2016-06-16'
 }
 ```
 
