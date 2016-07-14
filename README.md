@@ -477,7 +477,7 @@ POST /chat/:streamId
 #### Body
 ```javascript
 {
-"from":"accountId",
+"from":"572ac19cb4a3f37c5b51081e", //MUST BE 24-CHARACTER LENGHT.
 "message":"xxxx"
 }
 ```
