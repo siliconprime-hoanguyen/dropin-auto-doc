@@ -383,7 +383,7 @@ POST /leads
 
 ```javascript
 {
-    "streamId":"dfdsfsdf",
+    "sessionId":"dfdsfsdf",
     "organizationToken":"organizationninh0",
     "vinId": "123",
     "email":"hoa@codehub.io",
