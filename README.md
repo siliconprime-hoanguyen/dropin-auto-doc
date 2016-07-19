@@ -316,8 +316,9 @@ POST /streams/request/:organizationCode
 
 ```javascript
 {
-"vin":"xxx",
-"sessionId":"xxxx" // a unique string provided by app.
+"vin": "xxx",
+"sessionId": "xxxx", // a unique string provided by app.
+"guessId": "baxxxx" //optional, for history retrieval
 }
 ```
 
