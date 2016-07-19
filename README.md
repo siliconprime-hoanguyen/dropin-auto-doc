@@ -61,7 +61,8 @@ GET /dashboard/exportcsvcalls?query=xxx
   vin: '12321',
   skip: 10,
   limit: 20,
-  timezoneoffset: -420 //for GMT+7, default:0
+  timezoneoffset: -420, //for GMT+7, default:0
+  "guestId": "baxxxx" //optional, for history retrieval
 }
 ```
 
@@ -88,7 +89,8 @@ GET /dashboard/getcalls?query=xxx
   vin: '12321',
   skip: 10,
   limit: 20,
-  timezoneoffset: -420 //for GMT+7, default:0
+  timezoneoffset: -420, //for GMT+7, default:0
+  "guestId": "baxxxx" //optional, for history retrieval
 }
 ```
 
@@ -256,7 +258,8 @@ GET /dashboard/countcall?query=xxx
   carMake: 'toyota',
   from: '2016-06-16',
   to: '2016-06-16',
-  vin: '12321'
+  vin: '12321',
+  guestId: "baxxxx" //optional, for history retrieval
 }
 ```
 
@@ -318,7 +321,7 @@ POST /streams/request/:organizationCode
 {
 "vin": "xxx",
 "sessionId": "xxxx", // a unique string provided by app.
-"guessId": "baxxxx" //optional, for history retrieval
+"guestId": "baxxxx" //optional, for history retrieval
 }
 ```
 
