@@ -31,7 +31,8 @@ GET /dashboard/getorganizations?query=xxx
 
 ```javascript
 {
-  name:'xxx' //organization name
+  name:'xxx', //organization name
+  isFeatured: 'true' //or false. This field is set by admin
   skip: 10,
   limit: 20
 }
