@@ -48,9 +48,9 @@ GET /dashboard/exportcsvcalls?query=xxx
 
 #### Query
 
-```javascriptre
+```javascript
 {
-  name:'xxx' //firstName or lastName
+  name:'xxx', //firstName or lastName
   phone: 'xxx',
   organizationName: 'xxx',
   status: 'missed,completed,expired',
