@@ -314,8 +314,18 @@ GET /vin/:vinId
 ### Get stream list (Authentication required)
 
 ```javascript
-GET /streams
+GET /streams?query=xxxx
 ```
+
+
+#### Query
+
+```javascript
+{
+  status:'missed,completed'
+}
+```
+
 
 
 
