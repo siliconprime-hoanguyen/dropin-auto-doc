@@ -63,7 +63,9 @@ GET /dashboard/exportcsvcalls?query=xxx
   skip: 10,
   limit: 20,
   timezoneoffset: -420, //for GMT+7, default:0
-  "guestId": "baxxxx" //optional, for history retrieval
+  guestId: 'baxxxx', //optional, for history retrieval
+  sortBy: 'fieldName',
+  sortOrder: 1 //1: ascending, -1: descending
 }
 ```
 
@@ -91,7 +93,9 @@ GET /dashboard/getcalls?query=xxx
   skip: 10,
   limit: 20,
   timezoneoffset: -420, //for GMT+7, default:0
-  "guestId": "baxxxx" //optional, for history retrieval
+  guestId: 'baxxxx', //optional, for history retrieval
+ sortBy: 'fieldName',
+  sortOrder: 1 //1: ascending, -1: descending
 }
 ```
 
@@ -117,6 +121,8 @@ GET /organization/getdealers?organizationId=xxxx&query=....
   to: '2016-06-16',
   skip: 10,
   limit: 20,
+  sortBy: 'fieldName',
+  sortOrder: 1 //1: ascending, -1: descending
 }
 ```
 
@@ -166,7 +172,9 @@ GET /dashboard/exportcsvleads?query=xxx
   vin: '12321',
   skip: 10,
   limit: 20,
-  timezoneoffset: -420 //for GMT+7, default:0
+  timezoneoffset: -420, //for GMT+7, default:0
+  sortBy: 'fieldName',
+  sortOrder: 1 //1: ascending, -1: descending
 }
 ```
 
@@ -193,7 +201,9 @@ GET /dashboard/getleads?query=xxx
   vin: '12321',
   skip: 10,
   limit: 20,
-  timezoneoffset: -420 //for GMT+7, default:0
+  timezoneoffset: -420, //for GMT+7, default:0
+ sortBy: 'fieldName',
+  sortOrder: 1 //1: ascending, -1: descending
 }
 ```
 ### Counting lead and call by range
