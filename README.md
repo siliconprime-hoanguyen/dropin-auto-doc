@@ -344,6 +344,7 @@ POST /streams/request/:organizationCode
 "sessionId": "xxxx", // a unique string provided by app.
 "guestId": "baxxxx", //optional, for history retrieval
 "deviceAddress": "xxxx", // optional
+"deviceType": "xxx" // "ios" or "android"
 }
 ```
 
