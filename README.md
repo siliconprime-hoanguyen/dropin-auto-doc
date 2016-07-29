@@ -342,7 +342,8 @@ POST /streams/request/:organizationCode
 {
 "vin": "xxx",
 "sessionId": "xxxx", // a unique string provided by app.
-"guestId": "baxxxx" //optional, for history retrieval
+"guestId": "baxxxx", //optional, for history retrieval
+"deviceAddress": "xxxx", // optional
 }
 ```
 
