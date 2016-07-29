@@ -522,7 +522,7 @@ GET /chat/:streamId?start=0&limit=10
 #### For this API, mobile caller MUST provide header
 
 ```javascript
- Plaform: ['ios', 'android'] //one of the 2 values
+ Platform: ['ios', 'android'] //one of the 2 values
 ```
 
 
