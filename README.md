@@ -4,6 +4,10 @@
 
 ## DevWeb: https://autodev.dropininc.com
 
+## StagingAPI: https://apidautoStaging.dropininc.com/
+
+## StagingWeb: https://autostaging.dropininc.com/
+
 ## ProdAPI: https://apiprodauto.dropininc.com/
 
 ## ProdWeb: https://auto.dropininc.com/
