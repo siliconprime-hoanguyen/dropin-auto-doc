@@ -29,7 +29,7 @@
 
 ```javascript
 GET /dashboard/getorganizations?query=xxx (DEPRECATED), please use the below instead
-GET /getorganizations?query=xxx
+GET /organizations?query=xxx
 ```
 
 #### Query
