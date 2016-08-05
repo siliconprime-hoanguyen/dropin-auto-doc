@@ -8,11 +8,11 @@
 
 ## StagingWeb: https://autostaging.dropininc.com/
 
-~## ProdAPI: https://apiprodauto.dropininc.com/~
+~~ ProdAPI: https://apiprodauto.dropininc.com/ ~~
 
 ## ProdAPI: https://api.dropinauto.com/
 
-~## ProdWeb: https://auto.dropininc.com/~
+~~ ProdWeb: https://auto.dropininc.com/ ~~
 
 ## ProdWeb: https://app.dropinauto.com/
 
