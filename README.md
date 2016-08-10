@@ -1,8 +1,10 @@
 # dropin-auto-doc
 
-## DevAPI: https://apiautodev.dropininc.com
+## DevAPI-old: https://apiautodev.dropininc.com
+## DevAPI-new: https://apiautodev.dropinauto.com
 
-## DevWeb: https://autodev.dropininc.com
+## DevWeb-old: https://autodev.dropininc.com
+## DevWeb-new: https://autodev.dropinauto.com
 
 
 ## QaAPI: http://apiautoqa.dropinauto.com/
