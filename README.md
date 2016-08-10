@@ -4,9 +4,17 @@
 
 ## DevWeb: https://autodev.dropininc.com
 
-## StagingAPI: https://apidautoStaging.dropininc.com/
 
-## StagingWeb: https://autostaging.dropininc.com/
+## QaAPI: http://apiautoqa.dropinauto.com/
+## QaWeb: http://autoqa.dropinauto.com/
+
+
+
+## StagingAPI-old: https://apiautostaging.dropininc.com/
+## StagingAPI-new: http://salesdemo-api.dropinauto.com/
+
+## StagingWeb-old: https://autostaging.dropininc.com/
+## StagingWeb-new: http://salesdemo.dropinauto.com/
 
 ## ProdAPI: https://api.dropinauto.com/
 
