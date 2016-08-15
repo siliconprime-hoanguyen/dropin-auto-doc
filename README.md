@@ -437,6 +437,15 @@ POST /leads
 ```
 
 
+### Follow the stream (stream MUST be stopped or completed or expired)
+
+```javascript
+POST /streams/follow/:streamId 
+```
+
+
+
+
 ## Socket
 
 ### Authentication for Pusher service URL (called by Pusher SDK)
