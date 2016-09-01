@@ -541,6 +541,13 @@ GET /chat/:streamId?start=0&limit=10
 
 
 
+### Get video history
+
+```javascript
+GET /organizations/getVideos?organizationId=1111&skip=0&limit=10&name=abc //name is for searching by organization name, dealer fullname, dealer username, car model
+```
+
+
 ### Login 
 
 #### For this API, mobile caller MUST provide header
