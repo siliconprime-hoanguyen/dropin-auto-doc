@@ -544,9 +544,20 @@ GET /chat/:streamId?start=0&limit=10
 ### Get video history
 
 ```javascript
-GET /organizations/getvideos?organizationId=1111&skip=0&limit=10&name=abc //name is for searching by organization name, dealer fullname, dealer username, car model
+GET /organizations/getvideos?organizationId=1111&skip=0&limit=10&name=abc&sortBy=createdAt&sortOrder=-1
 ```
+#### Query
 
+```javascript
+{
+  organizationId: 'fdsfdsfds', ///organizationid
+  skip: 0, //skip how many records
+  limit: 10, //get how many records
+  name: 'dsfds', //name is for searching by organization name, dealer fullname, dealer username, car model
+  sortBy: 'createdAt', //sort by which field?
+  sortOrder: -1 //-1: desc, 1: asc
+}
+```
 
 ### Login 
 
