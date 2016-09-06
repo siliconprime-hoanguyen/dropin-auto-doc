@@ -559,6 +559,12 @@ GET /organizations/getvideos?organizationId=1111&skip=0&limit=10&name=abc&sortBy
 }
 ```
 
+### Get s3 link for upload
+
+```javascript
+GET /s3/getlink
+```
+
 ### Login 
 
 #### For this API, mobile caller MUST provide header
