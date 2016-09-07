@@ -559,11 +559,24 @@ GET /organizations/getvideos?organizationId=1111&skip=0&limit=10&name=abc&sortBy
 }
 ```
 
-### Get s3 link for upload
+### Get s3 link for upload (thumbnail, etc)
 
 ```javascript
 GET /s3/getlink
 ```
+
+
+### Update thumbnail for stream
+
+```javascript
+POST /createthumbnail/:streamId
+```
+
+#### Body
+
+{
+  thumbnailUrl: 'abc'
+}
 
 ### Login 
 
