@@ -574,9 +574,11 @@ POST /createthumbnail/:streamId
 
 #### Body
 
+```javascript
 {
   thumbnailUrl: 'abc'
 }
+```
 
 ### Login 
 
