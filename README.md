@@ -8,7 +8,7 @@
 
 
 ## QaAPI: http://apiautoqa.dropinauto.com/
-## QaWeb: http://autoqa.dropinauto.com/
+## QaWeb: http://autoqa.dropinauto.com/t
 
 
 
@@ -569,7 +569,7 @@ GET /s3/getlink
 ### Update thumbnail for stream
 
 ```javascript
-POST /createthumbnail/:streamId
+POST streams/createthumbnail/:streamId
 ```
 
 #### Body
