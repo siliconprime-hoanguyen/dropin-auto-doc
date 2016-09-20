@@ -482,7 +482,8 @@ POST /auth/register
 "username":"xxxxx"
 }
 ```
-### Register 
+
+### Change password 
 
 ```javascript
 POST /auth/changepassword
@@ -494,6 +495,38 @@ POST /auth/changepassword
 "username":"xxxxx",
 "password":"xxxx",
 "newpassword":"xxxxxx"
+}
+```
+
+### Send forgot password link to email
+
+```javascript
+POST /auth/forgotpassword
+```
+
+#### Body
+```javascript
+{
+"email":"abc@def.com"
+}
+```
+
+
+### Get token for requesting password
+
+```javascript
+GET /auth/forgotpassword/token=12312
+```
+
+### Reset password
+
+```javascript
+POST /auth/resetpassword/:token
+```
+#### Body
+```javascript
+{
+"password":"123456"
 }
 ```
 
