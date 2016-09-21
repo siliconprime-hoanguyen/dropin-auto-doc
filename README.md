@@ -363,6 +363,14 @@ POST /streams/request/:organizationCode
 }
 ```
 
+### Pickup stream (Authentication required)
+
+```javascript
+POST /streams/pickup/:streamId 
+```
+
+
+
 ### Accept stream (Authentication required)
 
 ```javascript
