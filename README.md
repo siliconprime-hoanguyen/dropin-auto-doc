@@ -506,6 +506,20 @@ POST /auth/changepassword
 }
 ```
 
+### Add device
+
+```javascript
+POST /devices
+```
+
+#### Body
+```javascript
+{
+deviceType:'ios' //or android
+deviceAddress:"xxxxxx"
+}
+```
+
 ### Send forgot password link to email
 
 ```javascript
