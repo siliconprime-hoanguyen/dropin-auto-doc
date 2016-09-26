@@ -53,16 +53,41 @@ GET /dashboard/getorganizations?query=xxx (DEPRECATED), please use the below ins
 GET /organizations?query=xxx
 ```
 
-#### Query
+
+### Editting organizations
+
+```javascript
+PUT /organizations/:organizationId
+```
+
+#### Body
 
 ```javascript
 {
-  name:'xxx', //organization name
-  isFeatured: 'true' //or false. This field is set by admin
-  skip: 10,
-  limit: 20
+  "_id": "57b16c3a81553a9d725d97e5",
+  "updatedAt": "2016-08-15T07:16:10.068Z",
+  "createdAt": "2016-08-15T07:16:10.068Z",
+  "companyType": "viewer",
+  "state": "CA",
+  "name": "empty org",
+  "address": "84 Bach Dang, Phuong 2, Quan Tan Binh",
+  "companyPhone": "1647689760",
+  "city": "Ho Chi Minh",
+  "zipcode": "70000",
+  "email": "emptyorg@gmail.com",
+  "phone": 1647689760,
+  "__v": 0,
+  "resources": {
+    "creditApplicationUrl": "https://www.dropininc.com/creditapplication.html"
+  },
+  "longitude": "123.123",
+  "latitude": "123.2323",
+  "siteToken": "123",
+  "isFeatured": false,
+  "status": "active"
 }
 ```
+
 
 
 
