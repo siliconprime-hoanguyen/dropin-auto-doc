@@ -378,6 +378,25 @@ GET /streams?query=xxxx
 ```
 
 
+### view car
+
+```javascript
+POST /streams/cars/viewcar
+```
+
+
+#### Body
+
+```javascript
+{
+"vin": "xxx",
+"model": "camry", 
+"make": "toyota", 
+"color": "xxxx", 
+"year": 2012
+}
+```
+
 
 
 ### Request stream
