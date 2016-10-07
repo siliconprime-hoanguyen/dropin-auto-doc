@@ -714,3 +714,36 @@ POST /auth
 "password":"xxxxxx",
 }
 ```
+
+## View
+
+### acknowledge/create a view
+
+```javascript
+POST /views/
+```
+
+### Body
+```javascript
+{
+  "guestId": "test Guest ID", //required
+  "organizationId": "57f233e7f51c7a65282914f9", //required
+  "vehicleInfo": {
+    "model": "Camry", //required       
+    "make": "Toyota2", //required  
+    "link": "http://toyota.com/new-cars/2016-camry2", //required
+    "year": 2016,
+    "imageUrl": "https://s3-us-west-1.amazonaws.com/dropin-prod-public-assets-v2/dropin-auto-images/toyota.jpg",
+    "type": "sedan"
+  }      
+}
+
+```
+
+### Get view history
+
+```javascript
+GET /views/?guestId=my guest 2&start=0&limit=10
+```
+
+
