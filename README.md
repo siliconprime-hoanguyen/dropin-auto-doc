@@ -368,6 +368,23 @@ GET /vin/:vinId
 GET /streams?query=xxxx
 ```
 
+#### Query
+
+```javascript
+{
+  status:'requested,streaming' //firstName or lastName
+  streamIds: '5811817d593203e80a45a97e',
+  withActiveCalls: 'true', //include active request, streaming call on top 
+  status: 'missed,completed,expired', //filter by
+  from: '2016-10-16T17:00:00.000Z',
+  to: '2016-10-16T18:00:00.000Z',
+  skip: 0,
+  limit: 10,
+  sortBy: 'createdAt',
+  sortOrder: -1
+}
+```
+
 
 #### Query
 
