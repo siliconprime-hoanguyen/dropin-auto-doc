@@ -764,3 +764,19 @@ GET /views/?guestId=my guest 2&start=0&limit=10
 ```
 
 
+
+### Sending app link
+
+Sms the app download link to provided phone number
+
+```javascript
+POST /sms/sendapplink
+```
+####
+```javascript
+{
+type:'iosViewer' // ['iosViewer', 'androidViewer'],
+number: '12321321321'
+}
+```
+
