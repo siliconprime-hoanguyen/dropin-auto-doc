@@ -30,15 +30,13 @@
 {apikey: xxxxx}
 ```
 
-### App version is required for every call to server, adding the below key/value pair to header
+### App version is required for every call to server from dealer iOS and Android apps, adding the below key/value pair to header
 
 ```javascript
 {appversion: value}
 ```
 
-Value may be 'android_viewer-1.2.0', 'android_dealer-1.2.0', 'ios_dealer-1.2.0', 'ios_viewer-1.2.0', 'web-1.2.0'
-
-#### Note: The version might change and needs to be updated accordingly, but the prefixes are fixed.
+value must follow semantic versioning rule. Ex: 1.2.4
 
 
 
