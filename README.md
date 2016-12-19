@@ -448,6 +448,13 @@ POST /streams/accept/:streamId
 ```
 
 
+### Ignore stream (Authentication required)
+
+```javascript
+POST /streams/ignore/:streamId 
+```
+
+
 ### Stop stream
 
 ```javascript
