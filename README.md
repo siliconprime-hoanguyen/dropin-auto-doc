@@ -785,3 +785,55 @@ number: '12321321321'
 }
 ```
 
+### Download test file
+
+Route for downloading test file
+
+```javascript
+GET /test/file/:fileId //file id is whatever
+```
+
+
+### Log bandwidth
+
+Log the bandwidth
+
+```javascript
+POST /streams/log/checkBandWidth/:streamId
+```
+####
+```javascript
+{
+field: 'abc' //whatever info
+}
+```
+
+
+### Log before streaming
+
+Log before streaming
+
+```javascript
+POST /streams/log/checkBeforeStreaming/:streamId
+```
+####
+```javascript
+{
+field: 'abc' //whatever info
+}
+```
+
+
+### Log while streaming
+
+Log while streaming
+
+```javascript
+POST /streams/log/checkWhileStreaming/:streamId
+```
+####
+```javascript
+{
+field: 'abc' //whatever info
+}
+```
