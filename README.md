@@ -448,6 +448,20 @@ POST /streams/accept/:streamId
 ```
 
 
+### Cancel stream from consumer
+
+```javascript
+POST /streams/cancel/:sessionId
+```
+
+### Skip stream from dealer(Authentication required)
+
+```javascript
+POST /streams/skip/:streamId 
+```
+
+
+
 ### Ignore stream (Authentication required)
 
 ```javascript
