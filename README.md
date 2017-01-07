@@ -512,6 +512,21 @@ POST /streams/sendloanlink/:streamId
 
 
 
+### Switch video provider
+
+```javascript
+POST /streams/switchprovider/:streamId
+```
+#### Body
+
+```javascript
+{
+"provider":"twilio", //or 'opentok'
+}
+```
+
+
+
 ### Feedback streaming
 
 ```javascript
