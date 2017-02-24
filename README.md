@@ -50,7 +50,11 @@ value must follow semantic versioning rule. Ex: 1.2.4
 GET /dashboard/getorganizations?query=xxx (DEPRECATED), please use the below instead
 GET /organizations?query=xxx
 ```
+### Counting organizations
 
+```javascript
+GET /organizations/statistic/count
+```
 
 ### Editting organizations
 
